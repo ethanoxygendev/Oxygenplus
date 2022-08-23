@@ -9,12 +9,11 @@ const client = new Client({
      partials: [User, Message, GuildMember, ThreadMember]
      })
 
-const { loadEvents } = require('./Handlers/eventhandler');
+const config = require('./config.json')
 
-client.config = require('./config.json')
-client.events = new Collection();
-
-loadEvents(client);
+client.once('ready', () => {
+     console.log('[Client] Ready.')
+})
 
 client.login(client.config.token)
 
