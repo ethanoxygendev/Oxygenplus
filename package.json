@@ -10,8 +10,19 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@discordjs/opus": "^0.8.0",
+    "@discordjs/rest": "^1.1.0",
+    "@discordjs/voice": "^0.11.0",
     "ascii-table": "^0.0.9",
+    "axios": "^0.27.2",
+    "discord-api-types": "^0.37.4",
     "discord.js": "^14.3.0",
-    "glob": "^8.0.3"
+    "eslint": "^8.22.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "glob": "^8.0.3",
+    "prettier": "^2.7.1",
+    "utf-8-validate": "^5.0.9",
+    "zlib-sync": "^0.1.7"
   }
 }
